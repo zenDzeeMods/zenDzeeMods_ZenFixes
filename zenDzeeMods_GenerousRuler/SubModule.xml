@@ -1,0 +1,25 @@
+﻿<Module>
+  <Name value="GenerousRuler"/>
+  <Id value="zenDzeeMods_GenerousRuler"/>
+  <Version value="v1.0.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="SandBoxCore"/>
+    <DependedModule Id="Sandbox"/>
+    <DependedModule Id="StoryMode" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="zenDzeeMods_GenerousRuler"/>
+      <DLLName value="zenDzeeMods_GenerousRuler.dll"/>
+      <SubModuleClassType value="zenDzeeMods_GenerousRuler.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>
+  <Xmls/>
+</Module>
